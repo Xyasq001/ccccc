@@ -1,0 +1,50 @@
+#container{
+    background-color: #eee;
+    padding:20px;
+    height: auto;
+    overflow: auto;
+}
+div{
+    box-sizing: border-box;
+}
+.lside{
+    position: relative;
+    float: left;
+    width: 200px;
+    background-color:#fff;
+}
+.rside{
+    float: right;
+    width: 120px;
+    background-color: #fff;
+}
+.middle{
+    border-color: inherit;
+    margin: 0px 140px 0px 220px ;
+    background-color: #fff;
+}
+.rside,.lside,.middle{
+    padding: 20px;
+}
+.teamLogo{
+    position: relative;
+    float: left;
+}
+.teamName{
+    position: relative;
+    float:left;
+    padding-left: 10px;
+}
+.content{
+    position: relative;
+    overflow: hidden;
+}
+
+img{
+    width:80px;
+    height: 80px;
+}
+.r_logo{
+    border: 1px solid #999;
+    margin: 10px 0;
+}
