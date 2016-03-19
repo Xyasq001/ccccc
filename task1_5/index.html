@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简单静态页面</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+    <img src="images/baidu.jpg" alt="#">
+    <ul>
+        <li><a href="#">链接1</a></li>
+        <li><a href="#">链接2</a></li>
+        <li><a href="#">链接3</a></li>
+        <li><a href="#">链接4</a></li>
+    </ul>
+</div>
+<div class="tbody">
+    <div class="t_right">
+        <div class="bar"></div>
+        <h3><p>这是一个侧栏,这是侧栏的标题</p></h3>
+        <br/>
+        <form action="#" method="get">
+            <span>请输入邮箱地址:</span><input type="text" name="email" value="这是一个文本输入框">
+            <br>
+            <span>&nbsp;</span>
+            <input type="text" name="info"  value="邮箱地址请按要求格式输入" disabled="true">
+            <br>
+            <span>请输入密码:</span> <input type="password" name="passwd">
+            <br>
+            <span>请重复输入密码:</span> <input type="password" name="r_passwd">
+            <br>
+            <span>&nbsp;</span>
+            <input type="text" name="info" value="密码为6-16位英文或数字" disabled="true">
+            <br>
+            <br>
+            <span>性别:</span>
+            <input type="radio" name="sex" value="男生">男生
+            <input type="radio" name="sex" value="女生">女生
+            <br>
+            <span>城市:</span>
+            <select name="city">
+                <option value="beijing">北京</option>
+                <option value="shanghai">上海</option>
+                <option value="guangzhou">广州</option>
+                <option value="shenzhen">深圳</option>
+                <option value="chengdu" selected="selected">成都</option>
+            </select>
+            <br>
+            <span>爱好:</span>
+            <input type="checkbox" name="aihao" value="sports">运动
+            <input type="checkbox" name="aihao" value="art">艺术
+            <input type="checkbox" name="aihao" value="science">科学
+            <br>
+            <span>个人描述:</span>
+            <textarea name="person-info"  cols="25" rows="8"></textarea>
+            <br>
+            <input type="button" name="submit" id="submit_button" value="确认提交">
+        </form>
+    </div>
+    <div class="t_left">
+        <div class="main">
+            <h2>这是文章一级标题</h2>
+            <h3>文章二级标题</h3>
+            <h4>文章作者&nbsp;文章发表时间</h4>
+            <p>这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落
+            这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落
+            这是一个很长的段落这是一个很长的段落
+            <a href="ife.baidu.com">这是个链接到百度ife</a>
+            这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落换行了 <br>
+            这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落
+            这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落. <br>
+            <img src="images/fader_200.jpg" alt="">
+            </p>
+            <p>这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落
+                <strong> 这里有一段粗体字</strong>这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落
+            </p>
+        </div>
+        <div class="main">
+            <h2>这是文章一级标题</h2>
+            <h3>文章二级标题</h3>
+            <h4>文章作者&nbsp;文章发表时间</h4>
+            <p>这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落
+                这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落
+                这是一个很长的段落这是一个很长的段落
+                <a href="ife.baidu.com">这是个链接到百度ife</a>
+                这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落换行了 <br>
+                这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落
+                这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落. <br>
+                <img src="images/fader_200.jpg" alt="">
+            </p>
+            <ul>
+                <li>列表项目一</li>
+                <li>列表项目二</li>
+                <li>列表项目三</li>
+            </ul>
+        </div>
+        <div class="main" id="picture">
+            <h2>图片</h2>
+            <ul>
+                <li>好看的图片</li>
+                <li><img src="images/fader_200.jpg" alt=""></li>
+            </ul>
+            <ul>
+                <li>好看的图片</li>
+                <li><img src="images/fader_200.jpg" alt=""></li>
+            </ul>
+            <ul>
+                <li>好看的图片</li>
+                <li><img src="images/fader_200.jpg" alt=""></li>
+            </ul>
+            <ul>
+                <li>好看的图片</li>
+                <li><img src="images/fader_200.jpg" alt=""></li>
+            </ul>
+            <ul>
+                <li>好看的图片</li>
+                <li><img src="images/fader_200.jpg" alt=""></li>
+            </ul>
+            <ul>
+                <li>好看的图片</li>
+                <li><img src="images/fader_200.jpg" alt=""></li>
+            </ul>
+            <ul>
+                <li>好看的图片</li>
+                <li><img src="images/fader_200.jpg" alt=""></li>
+            </ul>
+            <ul>
+                <li>好看的图片</li>
+                <li><img src="images/fader_200.jpg" alt=""></li>
+            </ul>
+            <ul>
+                <li>好看的图片</li>
+                <li><img src="images/fader_200.jpg" alt=""></li>
+            </ul>
+            <ul>
+                <li>好看的图片</li>
+                <li><img src="images/fader_200.jpg" alt=""></li>
+            </ul>
+        </div>
+        <div class="main">
+            <h2>这是文章一级标题</h2>
+            <h3>文章二级标题</h3>
+            <h4>文章作者&nbsp;文章发表时间</h4>
+            <ol>
+                <li>排名1</li>
+                <li>排名2</li>
+                <li>排名3</li>
+            </ol>
+            <table border="1" cellspacing="0" bordercolor="#dddddd">
+                <tr>
+                    <th>表头</th>
+                    <th>表头</th>
+                    <th>表头</th>
+                </tr>
+                <tr>
+                    <td>表内单元格</td>
+                    <td>表内单元格</td>
+                    <td><a href="#">操作</a></td>
+                </tr>
+                <tr>
+                    <td>表内单元格</td>
+                    <td>表内单元格</td>
+                    <td><a href="#">操作</a></td>
+                </tr>
+                <tr>
+                    <td>表内单元格</td>
+                    <td>表内单元格</td>
+                    <td><a href="#">操作</a></td>
+                </tr>
+                <tr id="table_foot">
+                    <td>总计</td>
+                    <td colspan="2">1000</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    版权所有@
+</div>
+</body>
+</html>
