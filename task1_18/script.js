@@ -18,18 +18,18 @@ function insertRight(){
 }
 function delLeft(){
     var temp = a.shift();
-    alert('将要删除的值为' + temp);
+    alert('灏嗚鍒犻櫎鐨勫�间负' + temp);
     print();
 }
 function delRight(){
     var temp = a.pop();
-    alert('将要删除的值为'+ temp);
+    alert('灏嗚鍒犻櫎鐨勫�间负'+ temp);
     print();
 }
 function check() {
     var i = document.getElementById('inputNum').value;
     if (isNaN(i) || i == ''){
-        alert('请输入数字');
+        alert('?????');
         return false;
     }
 }
