@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    box-sizing: border-box;
+    display: block;
+}
+.queue{
+    background-color: #a32d00;
+    padding: 10px;
+    margin: 5px;
+}
+.base,#text{
+    margin: 15px;
+}
