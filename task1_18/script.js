@@ -42,7 +42,10 @@ function print(){
 function delEle(event){
     var eleTar=event.target;
     var eleValue = eleTar.innerHTML;
-    a.splice(a.indexOf(eleValue),1);
-    eleTar.parentNode.removeChild(eleTar);
+    console.log(eleTar.tagName);
+    if(eleTar.tagName == 'SPAN'){
+        a.splice(a.indexOf(eleValue),1);
+        print();
+    }
 }
 
