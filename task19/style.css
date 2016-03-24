@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+div{
+    box-sizing: border-box;
+    display: block;
+}
+.queue{
+    background-color: #ff3333;
+    padding: 10px;
+    margin: 5px;
+    width: 40px;
+    float: left;
+    display: flex;
+    align-items:flex-end;
+}
+.base,#text{
+    margin: 15px;
+    overflow: hidden;
+    display: flex;
+    align-items:flex-end;
+}
+#text{
+	height: 200px;
+}
+#show{
+	margin: 15px;
+    overflow: hidden;
+    display: flex;
+    align-items:flex-end;
+   	height: 200px;
+}
